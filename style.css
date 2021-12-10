@@ -1,0 +1,17 @@
+:root {
+    --grid-cell: 1;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: repeat(var(--grid-cell), 20px);
+    grid-template-columns: repeat(var(--grid-cell), 20px);
+    justify-content: center;
+}
+
+.grid-item {
+    /* padding: 1em; */
+    border: 0.2px solid black;
+    height: 20px;
+    width: 20px;
+}
